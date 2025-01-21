@@ -1,0 +1,10 @@
+{
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
+  "tasks": {
+    "animated-sidebar": {
+      "name": "Animated Sidebar",
+      "command": "npm start -workspace animated-sidebar",
+      "runAtStart": true
+    }
+  }
+}

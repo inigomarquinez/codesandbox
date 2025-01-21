@@ -1,0 +1,12 @@
+{
+    "name": "codesandbox",
+    "version": "1.0.0",
+    "description": "A template for HTML and CSS",
+    "private": true,
+    "author": "Íñigo Marquínez Prado",
+    "license": "MIT",
+    "workspaces": [
+        "examples/*"
+    ]
+  }
+  
