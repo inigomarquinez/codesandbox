@@ -1,0 +1,27 @@
+h1 {
+    text-decoration: underline;
+  }
+  
+  #aside-nav {
+    background: #333;
+    border: 0;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    inset: auto;
+    height: 100vh;
+    box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  
+    transition: translate 0.2s ease-in-out;
+    transition-behavior: allow-discrete;
+  
+    &:popover-open {
+      @starting-style {
+        display: block;
+        translate: -100% 0;
+      }
+    }
+  }
+  
